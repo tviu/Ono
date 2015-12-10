@@ -1,5 +1,5 @@
 # Ono (斧)
-**A sensible way to deal with XML & HTML for iOS & Mac OS X**
+**A sensible way to deal with XML & HTML for iOS, tvOS & Mac OS X**
 
 XML support in Cocoa isn't great (unless, of course, the XML in question is a `.plist`). `NSXMLParser` forces a cumbersome delegate model, which is extremely inconvenient to implement. `NSXMLDocument` is a bit nicer to use, but only works on Mac OS X, and has a large memory footprint.
 
