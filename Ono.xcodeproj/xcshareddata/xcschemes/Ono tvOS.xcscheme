@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F82D394D1AA6199E00DAC057"
+               BlueprintIdentifier = "4EE94DB91C19BBC900F44894"
                BuildableName = "Ono.framework"
-               BlueprintName = "Ono iOS"
-               ReferencedContainer = "container:Ono.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F82D39581AA6199E00DAC057"
-               BuildableName = "Ono iOS Tests.xctest"
-               BlueprintName = "Ono iOS Tests"
+               BlueprintName = "Ono tvOS"
                ReferencedContainer = "container:Ono.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F82D39581AA6199E00DAC057"
-               BuildableName = "Ono iOS Tests.xctest"
-               BlueprintName = "Ono iOS Tests"
-               ReferencedContainer = "container:Ono.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F82D394D1AA6199E00DAC057"
-            BuildableName = "Ono.framework"
-            BlueprintName = "Ono iOS"
-            ReferencedContainer = "container:Ono.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -78,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F82D394D1AA6199E00DAC057"
+            BlueprintIdentifier = "4EE94DB91C19BBC900F44894"
             BuildableName = "Ono.framework"
-            BlueprintName = "Ono iOS"
+            BlueprintName = "Ono tvOS"
             ReferencedContainer = "container:Ono.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F82D394D1AA6199E00DAC057"
+            BlueprintIdentifier = "4EE94DB91C19BBC900F44894"
             BuildableName = "Ono.framework"
-            BlueprintName = "Ono iOS"
+            BlueprintName = "Ono tvOS"
             ReferencedContainer = "container:Ono.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

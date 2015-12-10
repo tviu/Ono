@@ -96,11 +96,6 @@
  */
 - (id <NSFastEnumeration>)CSS:(NSString *)CSS;
 
-/**
- @deprecated Use `enumerateElementsWithCSS:usingBlock:` instead
- */
-- (void)enumerateElementsWithCSS:(NSString *)CSS
-                           block:(void (^)(ONOXMLElement *element))block DEPRECATED_ATTRIBUTE;
 
 /**
  Enumerate elements matching a CSS selector.
@@ -267,7 +262,7 @@
 /**
  The element's tag.
  */
-@property (readonly, nonatomic, copy) NSString *tag;
+@property (readonly, nonatomic, copy) NSString *etag;
 
 /**
  The element's line number

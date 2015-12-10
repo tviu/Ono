@@ -48,7 +48,7 @@
     NSString *XPath = @"/ocf:container/ocf:rootfiles/ocf:rootfile";
     NSUInteger count = 0;
     for (ONOXMLElement *element in [self.document XPath:XPath]) {
-        XCTAssertEqualObjects(@"rootfile", element.tag, @"tag should be `rootfile`");
+        XCTAssertEqualObjects(@"rootfile", element.etag, @"tag should be `rootfile`");
         count++;
     }
     
@@ -62,7 +62,7 @@
     NSUInteger count = 0;
     for (ONOXMLElement *absoluteElement in [self.document XPath:absoluteXPath]) {
         for (ONOXMLElement *relativeElement in [absoluteElement XPath:relativeXPath]) {
-            XCTAssertEqualObjects(@"rootfile", relativeElement.tag, @"tag should be `rootfile`");
+            XCTAssertEqualObjects(@"rootfile", relativeElement.etag, @"tag should be `rootfile`");
             count++;
         }
     }

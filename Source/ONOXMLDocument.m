@@ -390,12 +390,6 @@ static void ONOSetErrorFromXMLErrorPtr(NSError * __autoreleasing *error, xmlErro
 }
 
 - (void)enumerateElementsWithCSS:(NSString *)CSS
-                           block:(void (^)(ONOXMLElement *))block
-{
-    [self.rootElement enumerateElementsWithCSS:CSS block:block];
-}
-
-- (void)enumerateElementsWithCSS:(NSString *)CSS
                       usingBlock:(void (^)(ONOXMLElement *element, NSUInteger idx, BOOL *stop))block
 {
     [self.rootElement enumerateElementsWithCSS:CSS usingBlock:block];

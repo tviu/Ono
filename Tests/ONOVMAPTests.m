@@ -47,7 +47,7 @@
     NSString *XPath = @"/vmap:VMAP/vmap:Extensions/uo:unicornOnce";
     NSUInteger count = 0;
     for (ONOXMLElement *element in [self.document XPath:XPath]) {
-        XCTAssertEqualObjects(@"unicornOnce", element.tag, @"tag should be `unicornOnce`");
+        XCTAssertEqualObjects(@"unicornOnce", element.etag, @"tag should be `unicornOnce`");
         count++;
     }
 
@@ -60,7 +60,7 @@
     NSUInteger count = 0;
     for (ONOXMLElement *absoluteElement in [self.document XPath:absoluteXPath]) {
         for (ONOXMLElement *relativeElement in [absoluteElement XPath:relativeXPath]) {
-            XCTAssertEqualObjects(@"unicornOnce", relativeElement.tag, @"tag should be `unicornOnce`");
+            XCTAssertEqualObjects(@"unicornOnce", relativeElement.etag, @"tag should be `unicornOnce`");
             count++;
         }
     }

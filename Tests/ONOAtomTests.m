@@ -53,7 +53,7 @@
 }
 
 - (void)testRootElement {
-    XCTAssertEqualObjects(self.document.rootElement.tag, @"feed", @"root element should be feed");
+    XCTAssertEqualObjects(self.document.rootElement.etag, @"feed", @"root element should be feed");
 //    XCTAssertEqualObjects(self.document.rootElement.namespace, @"http://www.w3.org/2005/Atom", @"XML namespace should be Atom");
 }
 
@@ -61,7 +61,7 @@
     ONOXMLElement *titleElement = [self.document.rootElement firstChildWithTag:@"title"];
 
     XCTAssertNotNil(titleElement, @"title element should not be nil");
-    XCTAssertEqualObjects(titleElement.tag, @"title", @"tag should be `title`");
+    XCTAssertEqualObjects(titleElement.etag, @"title", @"tag should be `title`");
     XCTAssertEqualObjects([titleElement stringValue], @"Example Feed", @"title string value should be 'Example Feed'");
 }
 
@@ -69,7 +69,7 @@
     ONOXMLElement *titleElement = [self.document.rootElement firstChildWithXPath:@"/atom:feed/atom:title"];
     
     XCTAssertNotNil(titleElement, @"title element should not be nil");
-    XCTAssertEqualObjects(titleElement.tag, @"title", @"tag should be `title`");
+    XCTAssertEqualObjects(titleElement.etag, @"title", @"tag should be `title`");
     XCTAssertEqualObjects([titleElement stringValue], @"Example Feed", @"title string value should be 'Example Feed'");
 }
 

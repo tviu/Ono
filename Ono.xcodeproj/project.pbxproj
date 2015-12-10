@@ -3,10 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EE94DBB1C19BBC900F44894 /* ONOXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D398A1AA61A7700DAC057 /* ONOXMLDocument.m */; };
+		4EE94DBF1C19BBC900F44894 /* Ono.h in Headers */ = {isa = PBXBuildFile; fileRef = F82D39BE1AA61B7C00DAC057 /* Ono.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EE94DC01C19BBC900F44894 /* ONOXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = F82D39891AA61A7700DAC057 /* ONOXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EE94DCB1C19BC1D00F44894 /* ONOCSSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D39991AA61AD000DAC057 /* ONOCSSTests.m */; };
+		4EE94DCC1C19BC1D00F44894 /* ONOVMAPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D399C1AA61AD000DAC057 /* ONOVMAPTests.m */; };
+		4EE94DCD1C19BC1D00F44894 /* ONOXPathFunctionResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D399E1AA61AD000DAC057 /* ONOXPathFunctionResultTests.m */; };
+		4EE94DCE1C19BC1D00F44894 /* ONOXMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D399D1AA61AD000DAC057 /* ONOXMLTests.m */; };
+		4EE94DCF1C19BC1D00F44894 /* ONOHTMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D399B1AA61AD000DAC057 /* ONOHTMLTests.m */; };
+		4EE94DD01C19BC1D00F44894 /* ONOAtomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D39981AA61AD000DAC057 /* ONOAtomTests.m */; };
+		4EE94DD11C19BC1D00F44894 /* ONODefaultNamespaceXPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D399A1AA61AD000DAC057 /* ONODefaultNamespaceXPathTests.m */; };
+		4EE94DD31C19BC1D00F44894 /* Ono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82D394E1AA6199E00DAC057 /* Ono.framework */; };
+		4EE94DD51C19BC1D00F44894 /* xml.xml in Resources */ = {isa = PBXBuildFile; fileRef = F82D39B11AA61ADA00DAC057 /* xml.xml */; };
+		4EE94DD61C19BC1D00F44894 /* ocf.xml in Resources */ = {isa = PBXBuildFile; fileRef = F82D39AF1AA61ADA00DAC057 /* ocf.xml */; };
+		4EE94DD71C19BC1D00F44894 /* atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = F82D39AE1AA61ADA00DAC057 /* atom.xml */; };
+		4EE94DD81C19BC1D00F44894 /* web.html in Resources */ = {isa = PBXBuildFile; fileRef = F82D39AD1AA61ADA00DAC057 /* web.html */; };
+		4EE94DD91C19BC1D00F44894 /* vmap.xml in Resources */ = {isa = PBXBuildFile; fileRef = F82D39B01AA61ADA00DAC057 /* vmap.xml */; };
+		4EE94DE01C19BEA300F44894 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE94DDF1C19BEA300F44894 /* libxml2.tbd */; };
 		F82D395A1AA6199E00DAC057 /* Ono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82D394E1AA6199E00DAC057 /* Ono.framework */; };
 		F82D397B1AA61A0B00DAC057 /* Ono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82D39701AA61A0B00DAC057 /* Ono.framework */; };
 		F82D398B1AA61A7700DAC057 /* ONOXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = F82D39891AA61A7700DAC057 /* ONOXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +61,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4EE94DC91C19BC1D00F44894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F82D39451AA6199E00DAC057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82D394D1AA6199E00DAC057;
+			remoteInfo = "Ono iOS";
+		};
 		F82D395B1AA6199E00DAC057 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F82D39451AA6199E00DAC057 /* Project object */;
@@ -61,6 +85,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4EE94DC51C19BBC900F44894 /* Ono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE94DDD1C19BC1D00F44894 /* Ono tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ono tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE94DDF1C19BEA300F44894 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
 		F82D394E1AA6199E00DAC057 /* Ono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82D39521AA6199E00DAC057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
 		F82D39591AA6199E00DAC057 /* Ono iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ono iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +114,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4EE94DBC1C19BBC900F44894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE94DE01C19BEA300F44894 /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE94DD21C19BC1D00F44894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE94DD31C19BC1D00F44894 /* Ono.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F82D394A1AA6199E00DAC057 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +168,7 @@
 		F82D39441AA6199E00DAC057 = {
 			isa = PBXGroup;
 			children = (
+				4EE94DDF1C19BEA300F44894 /* libxml2.tbd */,
 				F82D39501AA6199E00DAC057 /* Source */,
 				F82D395D1AA6199E00DAC057 /* Tests */,
 				F82D39971AA61AA600DAC057 /* Vendor */,
@@ -139,6 +183,8 @@
 				F82D39591AA6199E00DAC057 /* Ono iOS Tests.xctest */,
 				F82D39701AA61A0B00DAC057 /* Ono.framework */,
 				F82D397A1AA61A0B00DAC057 /* Ono OS X Tests.xctest */,
+				4EE94DC51C19BBC900F44894 /* Ono.framework */,
+				4EE94DDD1C19BC1D00F44894 /* Ono tvOS Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,6 +258,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4EE94DBE1C19BBC900F44894 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE94DBF1C19BBC900F44894 /* Ono.h in Headers */,
+				4EE94DC01C19BBC900F44894 /* ONOXMLDocument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F82D394B1AA6199E00DAC057 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +288,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4EE94DB91C19BBC900F44894 /* Ono tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE94DC21C19BBC900F44894 /* Build configuration list for PBXNativeTarget "Ono tvOS" */;
+			buildPhases = (
+				4EE94DBA1C19BBC900F44894 /* Sources */,
+				4EE94DBC1C19BBC900F44894 /* Frameworks */,
+				4EE94DBE1C19BBC900F44894 /* Headers */,
+				4EE94DC11C19BBC900F44894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ono tvOS";
+			productName = "Ono iOS";
+			productReference = 4EE94DC51C19BBC900F44894 /* Ono.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EE94DC71C19BC1D00F44894 /* Ono tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE94DDA1C19BC1D00F44894 /* Build configuration list for PBXNativeTarget "Ono tvOS Tests" */;
+			buildPhases = (
+				4EE94DCA1C19BC1D00F44894 /* Sources */,
+				4EE94DD21C19BC1D00F44894 /* Frameworks */,
+				4EE94DD41C19BC1D00F44894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE94DC81C19BC1D00F44894 /* PBXTargetDependency */,
+			);
+			name = "Ono tvOS Tests";
+			productName = "Ono iOSTests";
+			productReference = 4EE94DDD1C19BC1D00F44894 /* Ono tvOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F82D394D1AA6199E00DAC057 /* Ono iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F82D39641AA6199E00DAC057 /* Build configuration list for PBXNativeTarget "Ono iOS" */;
@@ -311,7 +402,7 @@
 		F82D39451AA6199E00DAC057 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Mattt Thompson";
 				TargetAttributes = {
 					F82D394D1AA6199E00DAC057 = {
@@ -329,7 +420,7 @@
 				};
 			};
 			buildConfigurationList = F82D39481AA6199E00DAC057 /* Build configuration list for PBXProject "Ono" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -344,11 +435,32 @@
 				F82D39581AA6199E00DAC057 /* Ono iOS Tests */,
 				F82D396F1AA61A0B00DAC057 /* Ono OS X */,
 				F82D39791AA61A0B00DAC057 /* Ono OS X Tests */,
+				4EE94DB91C19BBC900F44894 /* Ono tvOS */,
+				4EE94DC71C19BC1D00F44894 /* Ono tvOS Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4EE94DC11C19BBC900F44894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE94DD41C19BC1D00F44894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE94DD51C19BC1D00F44894 /* xml.xml in Resources */,
+				4EE94DD61C19BC1D00F44894 /* ocf.xml in Resources */,
+				4EE94DD71C19BC1D00F44894 /* atom.xml in Resources */,
+				4EE94DD81C19BC1D00F44894 /* web.html in Resources */,
+				4EE94DD91C19BC1D00F44894 /* vmap.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F82D394C1AA6199E00DAC057 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +502,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4EE94DBA1C19BBC900F44894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE94DBB1C19BBC900F44894 /* ONOXMLDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE94DCA1C19BC1D00F44894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE94DCB1C19BC1D00F44894 /* ONOCSSTests.m in Sources */,
+				4EE94DCC1C19BC1D00F44894 /* ONOVMAPTests.m in Sources */,
+				4EE94DCD1C19BC1D00F44894 /* ONOXPathFunctionResultTests.m in Sources */,
+				4EE94DCE1C19BC1D00F44894 /* ONOXMLTests.m in Sources */,
+				4EE94DCF1C19BC1D00F44894 /* ONOHTMLTests.m in Sources */,
+				4EE94DD01C19BC1D00F44894 /* ONOAtomTests.m in Sources */,
+				4EE94DD11C19BC1D00F44894 /* ONODefaultNamespaceXPathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F82D39491AA6199E00DAC057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,6 +571,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4EE94DC81C19BC1D00F44894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82D394D1AA6199E00DAC057 /* Ono iOS */;
+			targetProxy = 4EE94DC91C19BC1D00F44894 /* PBXContainerItemProxy */;
+		};
 		F82D395C1AA6199E00DAC057 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F82D394D1AA6199E00DAC057 /* Ono iOS */;
@@ -450,6 +589,90 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4EE94DC31C19BBC900F44894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDK_DIR)\"/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Ono;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		4EE94DC41C19BBC900F44894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDK_DIR)\"/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Ono;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		4EE94DDB1C19BC1D00F44894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+			};
+			name = Debug;
+		};
+		4EE94DDC1C19BC1D00F44894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+			};
+			name = Release;
+		};
 		F82D39621AA6199E00DAC057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,7 +693,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -486,6 +711,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -515,6 +741,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -525,6 +752,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,6 +777,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Ono;
 				SKIP_INSTALL = YES;
 			};
@@ -569,6 +798,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Ono;
 				SKIP_INSTALL = YES;
 			};
@@ -587,6 +817,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -600,6 +831,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -612,6 +844,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -626,6 +859,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Ono;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -641,6 +875,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_VERSION = A;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -651,6 +886,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Ono;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -661,6 +897,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -672,6 +909,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -682,6 +920,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -689,6 +928,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattt.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -697,6 +937,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4EE94DC21C19BBC900F44894 /* Build configuration list for PBXNativeTarget "Ono tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE94DC31C19BBC900F44894 /* Debug */,
+				4EE94DC41C19BBC900F44894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE94DDA1C19BC1D00F44894 /* Build configuration list for PBXNativeTarget "Ono tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE94DDB1C19BC1D00F44894 /* Debug */,
+				4EE94DDC1C19BC1D00F44894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F82D39481AA6199E00DAC057 /* Build configuration list for PBXProject "Ono" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -731,6 +989,7 @@
 				F82D39851AA61A0B00DAC057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F82D39861AA61A0B00DAC057 /* Build configuration list for PBXNativeTarget "Ono OS X Tests" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +998,7 @@
 				F82D39881AA61A0B00DAC057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

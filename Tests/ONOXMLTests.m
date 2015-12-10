@@ -52,7 +52,7 @@
 }
 
 - (void)testRootElement {
-    XCTAssertEqualObjects(self.document.rootElement.tag, @"spec", @"root element should be spec");
+    XCTAssertEqualObjects(self.document.rootElement.etag, @"spec", @"root element should be spec");
     XCTAssertEqualObjects(self.document.rootElement.attributes[@"w3c-doctype"], @"rec", @"w3c-doctype should be rec");
     XCTAssertEqualObjects(self.document.rootElement.attributes[@"lang"], @"en", @"xml:lang should be en");
 }
@@ -61,7 +61,7 @@
     ONOXMLElement *titleElement = [[self.document.rootElement firstChildWithTag:@"header"] firstChildWithTag:@"title"];
 
     XCTAssertNotNil(titleElement, @"title element should not be nil");
-    XCTAssertEqualObjects(titleElement.tag, @"title", @"tag should be `title`");
+    XCTAssertEqualObjects(titleElement.etag, @"title", @"tag should be `title`");
     XCTAssertEqualObjects([titleElement stringValue], @"Extensible Markup Language (XML)", @"title string value should be 'Extensible Markup Language (XML)'");
 }
 
@@ -72,7 +72,7 @@
     NSUInteger counter = 0;
     for (ONOXMLElement *elt in elts)
     {
-        XCTAssertEqualObjects(@"title", elt.tag, @"tag should be `title`");
+        XCTAssertEqualObjects(@"title", elt.etag, @"tag should be `title`");
         ++counter;
     }
     XCTAssertEqual(1, counter, @"at least one element should have been found at element path '%@'", path);
